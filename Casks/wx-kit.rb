@@ -17,9 +17,8 @@ cask "wx-kit" do
   app "wx-kit.app"
 
   caveats <<~EOS
-    应用未签名。若安装时未加 --no-quarantine,首次打开需在
-    「系统设置 → 隐私与安全性」点「仍要打开」。推荐安装方式:
-      brew install --cask --no-quarantine monkeychen/wx-kit/wx-kit
+    应用未签名,首次打开会被 macOS 拦截:到「系统设置 → 隐私与安全性」
+    点「仍要打开」;或命令行放行:xattr -cr #{appdir}/wx-kit.app
     命令行入口(供 AI agent):首次打开 GUI 会引导创建 ~/bin/wx-kit。
   EOS
 end
