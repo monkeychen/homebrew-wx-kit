@@ -10,10 +10,12 @@ brew install --cask monkeychen/wx-kit/wx-kit
 xattr -cr /Applications/wx-kit.app
 ```
 
+安装名是三段式`用户/tap/包`;tap 过一次后可用短名(`brew install --cask wx-kit`)。
+
 ## 升级 / 卸载
 
 ```sh
-brew upgrade --cask wx-kit
+brew update && brew upgrade --cask wx-kit   # 先 update:brew 读的是本地配方缓存,不刷会升到旧版
 brew uninstall --cask wx-kit
 ```
 
