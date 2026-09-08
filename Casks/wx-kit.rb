@@ -1,12 +1,12 @@
 cask "wx-kit" do
-  version "0.10.2"
+  version "0.10.3"
 
   on_arm do
-    sha256 "dc1d05b257b90f6c70fe3a29d8def3d8606453907076e34e369135b46ed13d7e"
+    sha256 "4a30120118d77582aedf075a9d1217e368ab9dbb620c3affc5db76d8becf2111"
     url "https://github.com/monkeychen/wx-kit/releases/download/v#{version}/wx-kit-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "66f2af6c16c5df1e72ec16694f1b918a1aeb1148bbf398314d73b0917be369ae"
+    sha256 "33746f556f8d89d092e30293e66d4c298d2fc8db01ddd63825818aa9669172e0"
     url "https://github.com/monkeychen/wx-kit/releases/download/v#{version}/wx-kit-#{version}.dmg"
   end
 
