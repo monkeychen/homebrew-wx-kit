@@ -1,12 +1,12 @@
 cask "wx-kit" do
-  version "v0.11.1"
+  version "0.11.1"
 
   on_arm do
-    sha256 "{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-a-release-by-tag-name","status":"404"}"
+    sha256 "026e4c56483d7b9bcebd2bec19a7891dc77dbfafa8d01104ef674787241ae12b"
     url "https://github.com/monkeychen/wx-kit/releases/download/v#{version}/wx-kit-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "{"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-a-release-by-tag-name","status":"404"}"
+    sha256 "29ab52bca12f627d285fdcef4e0aaaffd4cb48f8184f6a9dd3a2aa36c474666c"
     url "https://github.com/monkeychen/wx-kit/releases/download/v#{version}/wx-kit-#{version}.dmg"
   end
 
